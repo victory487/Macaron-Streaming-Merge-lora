@@ -1,5 +1,6 @@
 # Macaron-V1-Venti L3 流式合并
 
+
 此目录提供逐 Safetensors 分片的 LoRA 合并器，用于把
 `Macaron-V1-Venti/loras/L3` 固化进 BF16 基础权重。它不会构造完整的
 Transformers 模型，也不会同时把 1.37 TiB 权重加载进 CPU 内存。
